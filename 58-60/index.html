@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="vopros1">
+        <div>
+          <h2>Кто был первым человеком на луне?</h2>
+        </div>
+        <div class="border py-3 px-3 otvet1">Юрий Гагарин</div>
+        <div class="border py-3 px-3 otvet2">Нил Армстронг</div>
+        <div class="border py-3 px-3 otvet3">Дин Армстронг</div>
+      </div>
+
+      <div class="vopros2" style="display: none;"> 
+        <div>
+          <h2>Кто написал Гарри Поттера?</h2>
+        </div>
+        <div class="border py-3 px-3 otvet4">Джоан Роулинг</div>
+        <div class="border py-3 px-3 otvet5">Джордж Р.Матрин</div>
+        <div class="border py-3 px-3 otvet6">Николас Спаркс</div>
+      </div>
+
+      <div class="vopros3"  style="display: none;">
+        <div>
+          <h2>Кто создал социальную сеть Facebook?</h2>
+        </div>
+        <div class="border py-3 px-3 otvet7">Марк Цукерберг</div>
+        <div class="border py-3 px-3 otvet8">Павел Дуров</div>
+        <div class="border py-3 px-3 otvet9">‎Кевин Систром и Майк Кригер</div>
+      </div>
+
+      <div class="vopros4"  style="display: none;">
+        <div>
+          <audio src="music.mp3" controls></audio>
+          <h2>Как зовут автора/группу этой песни?</h2>
+        </div>
+        <div class="border py-3 px-3 otvet10">Gorillaz</div>
+        <div class="border py-3 px-3 otvet11">The Weeknd</div>
+        <div class="border py-3 px-3 otvet12">‎Daft Punk</div>
+      </div>
+      
+      <div class="vopros5"  style="display: none;">
+        <div>
+          <img src="akter.jpg">
+          <h2>Из какого популярного сериала этот актер?</h2>
+        </div>
+        <div class="border py-3 px-3 otvet13">Во все тяжкие</div>
+        <div class="border py-3 px-3 otvet14">Ривердейл</div>
+        <div class="border py-3 px-3 otvet15">‎Ходячие мертвецы</div>
+      </div>
+
+      <div class="vopros6"  style="display: none;">
+        <div>
+          <h2>Какую часть серии игр Resident Evil перезапустили в этом году?</h2>
+        </div>
+        <div class="border py-3 px-3 otvet16">1</div>
+        <div class="border py-3 px-3 otvet17">2</div>
+        <div class="border py-3 px-3 otvet18">‎3</div>
+      </div>
+
+      <div class="vopros7"  style="display: none;">
+        <div>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8b32MdGKp_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h2>Трелйер какого фильма,который выйдет в этом году ,изображен здесь?</h2>
+        </div>
+        <div class="border py-3 px-3 otvet19">Оно 2</div>
+        <div class="border py-3 px-3 otvet20">Мстители 4</div>
+        <div class="border py-3 px-3 otvet21">‎Капитан Марвел</div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript">
+      //vopros1
+
+      document.querySelector(".otvet1").onclick = function(){
+        alert("ошибка");
+      }
+      document.querySelector(".otvet2").onclick = function(){
+        alert("правильно");
+        document.querySelector(".vopros2").style.display = "block";
+        document.querySelector(".vopros1").style.display = "none";
+      }
+      document.querySelector(".otvet3").onclick = function(){
+        alert("ошибка");
+      }
+
+      //vopros2
+
+      document.querySelector(".otvet4").onclick = function(){
+        alert("правильно");
+        document.querySelector(".vopros3").style.display = "block";
+        document.querySelector(".vopros2").style.display = "none";
+      }
+      document.querySelector(".otvet5").onclick = function(){
+        alert("ошибка");
+      }
+      document.querySelector(".otvet6").onclick = function(){
+        alert("ошибка");
+      }
+
+      //vopros3
+
+      document.querySelector(".otvet7").onclick = function(){
+        alert("правильно");
+        document.querySelector(".vopros4").style.display = "block";
+        document.querySelector(".vopros3").style.display = "none";
+      }
+      document.querySelector(".otvet8").onclick = function(){
+        alert("он изобрел ВК");
+      }
+      document.querySelector(".otvet9").onclick = function(){
+        alert("он изобрел Инстаграмм");
+      }
+
+      //vopros4
+
+       document.querySelector(".otvet10").onclick = function(){
+        alert("ошибка");
+      }
+      document.querySelector(".otvet11").onclick = function(){
+        alert("ошибка");
+      }
+      document.querySelector(".otvet12").onclick = function(){
+        alert("правильно");
+        document.querySelector(".vopros5").style.display = "block";
+        document.querySelector(".vopros4").style.display = "none";
+      }
+
+      //vopros5
+
+      document.querySelector(".otvet13").onclick = function(){
+        alert("правильно");
+        document.querySelector(".vopros6").style.display = "block";
+        document.querySelector(".vopros5").style.display = "none";
+      }
+      document.querySelector(".otvet14").onclick = function(){
+        alert("ошибка");
+      }
+      document.querySelector(".otvet15").onclick = function(){
+        alert("ошибка");
+      }
+
+      //vopros6
+      document.querySelector(".otvet16").onclick = function(){
+        alert("ошибка");
+      }
+      document.querySelector(".otvet17").onclick = function(){
+        alert("правильно");
+        document.querySelector(".vopros7").style.display = "block";
+        document.querySelector(".vopros6").style.display = "none";
+      }
+      document.querySelector(".otvet18").onclick = function(){
+        alert("ошибка");
+      }
+
+      //vopros7
+
+      document.querySelector(".otvet19").onclick = function(){
+      alert("ошибка");
+      }
+      document.querySelector(".otvet20").onclick = function(){
+        alert("правильно");
+        document.querySelector(".vopros1").style.display = "block";
+        document.querySelector(".vopros7").style.display = "none";
+      }
+      document.querySelector(".otvet21").onclick = function(){
+        alert("ошибка");
+      }
+
+
+    </script>
+
+  </body>
+</html>
